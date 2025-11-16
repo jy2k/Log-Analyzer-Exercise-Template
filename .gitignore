@@ -1,0 +1,16 @@
+# API Keys and secrets
+api_key.txt
+*.key
+.env
+.env.local
+
+# Compiled binaries
+hello
+openai_chat
+test_request
+*.o
+*.exe
+
+# System files
+.DS_Store
+Thumbs.db
