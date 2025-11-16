@@ -3,11 +3,13 @@
 #include <string.h>
 #include <curl/curl.h>
 
+
 // Structure to store response data
 struct Response {
     char *data;
     size_t size;
 };
+
 
 // Callback function to write response data
 static size_t WriteCallback(void *contents, size_t size, size_t nmemb, struct Response *response) {
